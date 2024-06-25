@@ -9,7 +9,6 @@ def load_lottie(url):
     return r.json()
 
 def app():
-    # Create columns for side-by-side layout
     col1, col2 = st.columns([2, 3])
 
     with col1:
