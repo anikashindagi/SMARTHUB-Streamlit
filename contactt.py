@@ -16,8 +16,7 @@ def app():
         contact = {"name": name, "phone": phone, "email": email, "address": address}
         st.session_state.contacts.append(contact)
         st.success(f"Added contact: \nName: {name} Phn: {phone} Email: {email} Address: {address}")
-    
-    # Display the list of contacts
+
     st.write("Contacts:")
     if st.session_state.contacts:
         for i, contact in enumerate(st.session_state.contacts):
