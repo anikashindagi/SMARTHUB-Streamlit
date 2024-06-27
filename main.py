@@ -29,6 +29,9 @@ def main():
         contactt.app()
     elif selected == "Daily Task Tracker":
         dailytask.app()
+    elif selected== "Assignments":
+        assign.app()
+
 
 if __name__ == "__main__":
     main()
